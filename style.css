@@ -1,0 +1,253 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.main-header{
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    background: white;
+    padding: 8px 16px;
+    
+}
+
+
+
+.logo{
+
+    width: 250px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+}
+
+.main-nav{
+    display: flex;
+    text-align: right;
+    vertical-align: middle;
+    
+}
+
+.main-nav__items{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    
+}
+
+.main-nav__item{
+    display: inline-block;
+    margin: 0 16px;
+    text-decoration: none;
+    position: relative;
+    bottom: 20px;
+    left: 600px;
+
+   
+}
+
+.main-btn {
+    position: absolute;
+    right: 230px;
+    top: 38px;
+}
+
+.main-btn a{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+
+}
+
+.main-nav__item a{
+    text-decoration: none;
+    color: rgb(44, 34, 34);
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+
+.nav__button{
+    position: relative;
+    left: 180px;
+    background: transparent;
+    color: orange;
+    font: inherit;
+    border: 2px solid orange;
+    padding: 10px;
+    border-radius: 6px;
+    width: 120px;
+    bottom: 12px;
+
+
+}
+
+
+.main-banner{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    background: rgb(46, 34, 34);
+    position: relative;
+    width: 700px;
+    height: 500px;
+    bottom: 440px;
+    left: -16px;
+    
+   
+}
+
+.banner-img{
+    position: relative;
+    width: 900px;
+    height: 600px;
+    left: 619px;
+    top: 100px;
+
+    
+
+
+} 
+
+.banner-text {
+    
+    color: white;
+    text-align: left;
+    padding: 8px;
+    margin: 20px;
+    display: inline-block;
+    
+
+} 
+
+.banner-text .banner-text__h1{
+    position: relative;
+    color: white;
+    bottom: 800px;
+    left: 150px;
+    font-size: 52px;
+
+}
+
+.banner-text .banner-text__p{
+    position: relative;
+    color: white;
+    bottom: 800px;
+    left: 150px;
+    
+}
+
+.banner-btn{
+    position: relative;
+    bottom: 800px;
+    left: 150px;
+    margin: 20px 0;
+    border: 2px solid rgb(44, 34, 34);
+    border-radius: 8px;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.banner-btn:hover,
+.banner-btn:active{
+    background: white;
+    color: orange;
+}
+
+
+.what-we-do{
+    position: relative;
+    width: 80%;
+    bottom: 600px;
+    text-align: center;
+    right: 439px;
+    
+  
+    
+
+}
+
+
+.footer-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    bottom: 550px;
+}
+
+.main-footer__link{
+    display: inline-block;
+    margin: 0 16px;
+    padding: 8px;
+}
+
+
+.main-footer__link .footer-p1{
+    text-align: left;
+    color: rgb(41, 29, 29);
+}
+
+
+.main-footer__link .footer--h1{
+    font-size: 20px;
+    color: rgb(41, 29, 29);
+    text-align: left;
+    margin: 7px 0;
+}
+
+.footer{
+    background: rgb(41, 29, 29);
+    padding: 20px;
+    margin-top: 48px;
+    
+}
+
+.main-foooter__links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main-foooter__link{
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-foooter__link a{
+    color: white;
+    position: relative;
+    top: -50px;
+    text-decoration: none;
+    font-size: 20px
+}
+
+.main-foooter__link a:hover,
+.main-foooter__link a:active{
+    color: #ccc;
+    
+
+}
+
+
+
+
+
+
+
+
+
